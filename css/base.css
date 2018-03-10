@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px; /* обнулил, чтоб прилип container */
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+}
+
+.container {
+	width: 1170px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+
+.container:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.ll {
+	font-style: italic;
+
+}
+
+.bld {
+	font-weight: bold;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+.upper {
+	text-transform: uppercase;
+}
