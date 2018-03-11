@@ -243,7 +243,30 @@ header {
     z-index: 20;
     font-size: 0px;
 }
-.slick-prev {
+.slick-arrow {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	margin: auto;
+  	z-index: 222;
+  	border: 0;
+  	width:40px;
+  	height: 40px;
+  	outline: 0;
+  	font-size: 0;
+  }
+  .slick-prev {
+  	left:10px;
+	background: url(../images/prev.png) 
+	no-repeat center center / cover;
+  }
+
+  .slick-next {
+  	right:10px;
+	background: url(../images/next.png) 
+	no-repeat center center / cover;
+  }
+/*.slick-prev {
 	position: absolute;
     left: 20px;
    
@@ -252,7 +275,7 @@ header {
 	position: absolute;
     right: 20px;
     
-}
+}*/
 
 /* footer*/
 
